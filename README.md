@@ -37,3 +37,4 @@ In this repo, we use “Layer 2” to refer off chain scaling solutions. The pub
 We boldly predict that in the future there will be variety of Layer 2 developers, they will come up with their Layer 2 solutions according to real world demand and their understanding of the technology.
 
 This repo is designed for the future of Layer 2.
+[The Plasma Framework](https://www.learnplasma.org/en/learn/framework.html)
