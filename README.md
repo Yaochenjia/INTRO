@@ -3,7 +3,7 @@ Different introductions of layer 2
 
 ## Introduction to Layer 2 solutions
 
-Blockchain technology is facing a trilemma, i.e. from decentralization, security and scalability. Only two of the three features could be obtained in a single blockchain. At the heart of the scaling problem is a tradeoff between "large user-base " and "large set of validators".
+Blockchain technology is facing a trilemma, i.e. from decentralization, security and scalability. Only two of the three features could be obtained in a single blockchain. **At the heart of the scaling problem is a tradeoff between "large user-base " and "large set of validators".**
 
 Public blockchains need all the validators reach consensus, to ensure decentralization and security, which leads to the problem: the throughput of the whole blockchain is equal to a single validator. Fundamentally, blockchains just don’t scale.
 
@@ -15,13 +15,15 @@ Now there are three scalability technologies are on their way:
 
 For the first solutions, by optimizing the blockchain protocols, then only computer with better processing power can act as validator. For those home - use computers, they even can't download transaction if the throughput reach 5000 transactions per second. And storage comes to be a problem afterward.
 
-As for Sharding, it's not mature yet. There are different issues concerning 4 level of sharding: from the computation level, network level, storage level and consensus level. These issues are also cross shard problem like train and hotel problem ( https://github.com/ethereum/wiki/wiki/Sharding-FAQs#what-is-the-train-and-hotel-problem ), those problems are not solved yet.
+As for Sharding, it's not mature yet. There are different issues concerning 4 level of sharding: from the computation level, network level, storage level and consensus level. These issues are also cross shard problem like [train and hotel problem](https://github.com/ethereum/wiki/wiki/Sharding-FAQs#what-is-the-train-and-hotel-problem), those problems are not solved yet.
 
 Off chain scaling solutions are mature technologies for scaling blockchain, first introduced by Lighting Network in 2016. From our perspective, public blockchain is so far the most efficient way to reach global consensus, but it is also the slowest database as well. Thus we should let blockchain do what they should do, i.e. ensure security and decentralization. Other features like scalability, privacy and so on could be done through off chain scaling solutions, to fit the demand of different industries and applications.
 
 Here are two main considerations behind off chain scaling solutions: 
-1. Not every thing needs to reach a global consensus. 
-2. Public blockchain should just do what they should.
+
+**1. Not every thing needs to reach a global consensus.**
+
+**2. Public blockchain should just do what they should.**
 
 Nowadays, there are several branches of off chain scaling solutions: 
 1. State Channel 
